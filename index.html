@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+    tailwind.config = {
+      darkMode: 'class', // enables toggling dark mode with 'dark' class
+    }
+  </script>
+    <title>PortPolio John Zaidi</title>
+
+</head>
+<body class=" relative bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
+    <!--header we are designing-->
+    <header class="bg-white shadow-sticky top-0 z-50 dark:bg-gray-800">
+
+   
+    <div class="container mx-auto px-6 py-3">
+        <div class="flex items-center justify-between">
+            <div class="text-xl font-bold text-grey-900 dark:text-white">My Portfolio</div>
+            <nav class="flex space-x-4">
+                 <!-- (a.text-grey-600.hover:text-grey-950.dark:text-grey-500.dark:text-grey-100{About})*3 -->
+                  <a href="#about"class="text-gray-600 hover:text-gray-950 dark:text-gray-500 dark:text-gray-100">About</a>
+                  <a href="#projects"class="text-gray-600 hover:text-gray-950 dark:text-gray-500 dark:text-gray-100">Projects</a>
+                  <a href="#contacts"class="text-gray-600 hover:text-gray-950 dark:text-gray-500 dark:text-gray-100">Contacts</a>
+
+ 
+
+
+            </nav>
+            <button id="dark-mode-toggle" class="ml-4 px-4 py-2 bg-gray-900 text-white rounded-lg 
+              hover:bg-gray-700 dark:bg-gray-100
+              dark:bg-gray-900 dark:hover:bg-gray-300
+              transition-all"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </div>
+     </header>
+     <main class="container mx-auto px-6 py-12">
+      <section   id="#about" class="flex flex-col justify-center min-h-dvh">
+        <div class="flex items-center justify-between gap-2">
+           
+          <div class="flex flex-col  md:flex-row items-center justify-center gap-6">
+            <h2 class="text-3xl font-bold mb-4 ">About me</h2>
+           
+            <p class="text-gray-700 dark:text-gray-300 bg-white  dark:bg-gray:700 mb-2 p-2 rounded-lg shadow-lg w-fit">
+              I am a Web Developer with a Passion of Creating Beautiful Functional Websites
+            </p>
+            <p class="text-gray-700 dark:text-gray-300 bg-white dark:bg-gray:700 mb-2 p-2 rounded-lg shadow-lg w-fit"> I Have Experience with
+              <span class="font-semibold text-orange-500 ">HTML</span>
+              <span class="font-semibold text-yellow-500 ">CSS</span>
+              <span class="font-semibold text-black rounded p-1 ">JS</span>
+              And Various Frameworks and Libraries
+            </p>
+
+          </div>
+          <img class="rounded-full  w-40 h-40" src="/images/234.jpg" alt="Profile pic">
+
+        </div>
+      </section>
+      <div id="projects" class="flex flex-col justify-center min-h-dvh">
+        <h2 class="text-3xl font-bold mb-4 ">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a  href="https://johnabbas111.github.io/Nextur112-/"class="grid grid-cols-2 grid-rows-4 gap-x-4 bg-white p-6 rounded-lg shadow-lg cursor-pointer dark:bg-gray-800 hover:scale-105 transition-all
+          duration-300 ease-in-out">
+           <h3 class="row-span-1 col-span-2 text-xl font-bold">Nexter Project</h3>
+           <p class="row-span-3 text-gray-500 dark:text-grat-200 hover:text-gray-700 dark:text-gray-200">Beautiful app that show beautiful hotels attaract the people
+            you can book and visit multiple naturally setted locations
+           </p>
+           <img src="images/luxury-bedroom-hotel.jpg" class="row-span-3 rounded-lg" src="" alt="Project image"/>
+
+         
+        </a>
+         <a  href="https://johnabbas111.github.io/Enjoy-nature12-/"class="grid grid-cols-2 grid-rows-4 gap-x-4 bg-white p-6 rounded-lg shadow-lg cursor-pointer dark:bg-gray-800 hover:scale-105 transition-all
+          duration-300 ease-in-out">
+           <h3 class="row-span-1 col-span-2 text-xl font-bold">Natours Build with Sass </h3>
+           <p class="row-span-3 text-gray-500 dark:text-grat-200 hover:text-gray-700 dark:text-gray-200">Beautiful locations to visit and enjoy new natural locations and book now 
+            world locations for mental peace and to see natural beauty
+           </p>
+           <img src="images/Altja_jõgi_Lahemaal.jpeg" class="row-span-3 rounded-lg" src="" alt="Project image"/>
+
+         
+        </a>
+         <a  href=""class="grid grid-cols-2 grid-rows-4 gap-x-4 bg-white p-6 rounded-lg shadow-lg cursor-pointer dark:bg-gray-800 hover:scale-105 transition-all
+          duration-300 ease-in-out">
+           <h3 class="row-span-1 col-span-2 text-xl font-bold">Jira Tracker</h3>
+           <p class="row-span-3 text-gray-500 dark:text-grat-200 hover:text-gray-700 dark:text-gray-200">Track your daily tasks on hold 
+           </p>
+           <img  class="row-span-3 rounded-lg" src="images/jira.png" alt="Project image"/>
+
+         
+        </a>
+        
+
+        
+        </div>
+      </section>
+      <section class="mt-20 px-6 py-12 bg-gray-100 dark:bg-gray-900">
+  <h2 class="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-100">Contact</h2>
+
+  <div class="flex flex-col md:flex-row gap-10 md:items-start md:justify-center">
+    
+    <!-- Contact Info -->
+    <div class="md:w-1/3 space-y-4">
+      <p class="text-gray-700 dark:text-gray-300"><strong>Address:</strong> 157/2 Kidwai Nagar, Muzaffarnagar</p>
+      <p class="text-gray-700 dark:text-gray-300"><strong>Phone:</strong> +91 7017751535</p>
+      <p class="text-gray-700 dark:text-gray-300"><strong>Email:</strong> Jaunzaidi@e-sutra.com</p>
+
+      <div class="flex items-center gap-3">
+        <strong>Social:</strong>
+        <a href="#" class="hover:text-blue-600"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+        <a href="#" class="hover:text-blue-600"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <a href="#" class="hover:text-blue-600"><i class="fa-brands fa-github fa-xl"></i></a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contact-form" class="bg-white w-full md:w-1/2 max-w-lg p-6 rounded-lg shadow-lg dark:bg-gray-200">
+      <label for="Name" class="block text-gray-700 dark:text-gray-800">Name</label>
+      <input type="text" id="Name" class="w-full border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4"/>
+
+      <label for="email" class="block text-gray-700 dark:text-gray-800">Email</label>
+      <input type="email" id="email" class="w-full border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4"/>
+
+      <label for="message" class="block text-gray-700 dark:text-gray-800">Message</label>
+      <textarea id="message" class="w-full border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4"></textarea>
+
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Send</button>
+    </form>
+  </div>
+</section>
+
+        
+
+
+     </main>
+      <a class="bg-gray-900 text-white rounded-full p-3  absolute right-10 bottom-20 hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-300
+      hover:p-4 transition-all duration-300" href="#about">TOP</a>
+     <footer class="bg-white shadow mt-12 dark:bg-gray-800">
+      <div class="container mx-auto px-6 py-3 text-center">
+        <p class="text-gray-700 dark:text-gray-300">&copy; 2025 My Portfolio All Rights Reserved</p>
+      </div>
+     
+     </footer>
+     <script src="https://kit.fontawesome.com/c809de0cad.js" crossorigin="anonymous"></script>
+     <script>
+        document.getElementById('dark-mode-toggle').addEventListener("click", function(){
+            document.documentElement.classList.toggle('dark');
+            if(this.innerHTML.includes("fa-moon")){
+                this.innerHTML=`<i class="fa-solid fa-sun"></i>`
+            }
+            else{
+
+                this.innerHTML=`<i class="fa-solid fa-moon"></>`
+            }
+        })
+
+     </script>
+    
+</body>
+<!-- -->
